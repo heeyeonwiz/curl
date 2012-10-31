@@ -1,0 +1,95 @@
+mkdir .deps
+
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT file.lo -MD -MP -MF ".deps/file.Tpo" -c file.c -DDLL_EXPORT -DPIC -o file.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT timeval.lo -MD -MP -MF ".deps/timeval.Tpo" -c timeval.c -DDLL_EXPORT -DPIC -o timeval.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT base64.lo -MD -MP -MF ".deps/base64.Tpo" -c base64.c -DDLL_EXPORT -DPIC -o base64.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT hostip.lo -MD -MP -MF ".deps/hostip.Tpo" -c hostip.c -DDLL_EXPORT -DPIC -o hostip.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT progress.lo -MD -MP -MF ".deps/progress.Tpo" -c progress.c -DDLL_EXPORT -DPIC -o progress.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT formdata.lo -MD -MP -MF ".deps/formdata.Tpo" -c formdata.c -DDLL_EXPORT -DPIC -o formdata.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT cookie.lo -MD -MP -MF ".deps/cookie.Tpo" -c cookie.c -DDLL_EXPORT -DPIC -o cookie.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT http.lo -MD -MP -MF ".deps/http.Tpo" -c http.c -DDLL_EXPORT -DPIC -o http.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT sendf.lo -MD -MP -MF ".deps/sendf.Tpo" -c sendf.c -DDLL_EXPORT -DPIC -o sendf.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT ftp.lo -MD -MP -MF ".deps/ftp.Tpo" -c ftp.c -DDLL_EXPORT -DPIC -o ftp.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT url.lo -MD -MP -MF ".deps/url.Tpo" -c url.c -DDLL_EXPORT -DPIC -o url.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT dict.lo -MD -MP -MF ".deps/dict.Tpo" -c dict.c -DDLL_EXPORT -DPIC -o dict.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT if2ip.lo -MD -MP -MF ".deps/if2ip.Tpo" -c if2ip.c -DDLL_EXPORT -DPIC -o if2ip.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT speedcheck.lo -MD -MP -MF ".deps/speedcheck.Tpo" -c speedcheck.c -DDLL_EXPORT -DPIC -o speedcheck.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT ldap.lo -MD -MP -MF ".deps/ldap.Tpo" -c ldap.c -DDLL_EXPORT -DPIC -o ldap.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT version.lo -MD -MP -MF ".deps/version.Tpo" -c version.c -DDLL_EXPORT -DPIC -o version.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT getenv.lo -MD -MP -MF ".deps/getenv.Tpo" -c getenv.c -DDLL_EXPORT -DPIC -o getenv.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT escape.lo -MD -MP -MF ".deps/escape.Tpo" -c escape.c -DDLL_EXPORT -DPIC -o escape.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT mprintf.lo -MD -MP -MF ".deps/mprintf.Tpo" -c mprintf.c -DDLL_EXPORT -DPIC -o mprintf.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT telnet.lo -MD -MP -MF ".deps/telnet.Tpo" -c telnet.c -DDLL_EXPORT -DPIC -o telnet.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT netrc.lo -MD -MP -MF ".deps/netrc.Tpo" -c netrc.c -DDLL_EXPORT -DPIC -o netrc.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT getinfo.lo -MD -MP -MF ".deps/getinfo.Tpo" -c getinfo.c -DDLL_EXPORT -DPIC -o getinfo.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT transfer.lo -MD -MP -MF ".deps/transfer.Tpo" -c transfer.c -DDLL_EXPORT -DPIC -o transfer.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT strequal.lo -MD -MP -MF ".deps/strequal.Tpo" -c strequal.c -DDLL_EXPORT -DPIC -o strequal.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT easy.lo -MD -MP -MF ".deps/easy.Tpo" -c easy.c -DDLL_EXPORT -DPIC -o easy.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT security.lo -MD -MP -MF ".deps/security.Tpo" -c security.c -DDLL_EXPORT -DPIC -o security.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT krb4.lo -MD -MP -MF ".deps/krb4.Tpo" -c krb4.c -DDLL_EXPORT -DPIC -o krb4.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT krb5.lo -MD -MP -MF ".deps/krb5.Tpo" -c krb5.c -DDLL_EXPORT -DPIC -o krb5.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT memdebug.lo -MD -MP -MF ".deps/memdebug.Tpo" -c memdebug.c -DDLL_EXPORT -DPIC -o memdebug.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT http_chunks.lo -MD -MP -MF ".deps/http_chunks.Tpo" -c http_chunks.c -DDLL_EXPORT -DPIC -o http_chunks.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT strtok.lo -MD -MP -MF ".deps/strtok.Tpo" -c strtok.c -DDLL_EXPORT -DPIC -o strtok.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT connect.lo -MD -MP -MF ".deps/connect.Tpo" -c connect.c -DDLL_EXPORT -DPIC -o connect.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT llist.lo -MD -MP -MF ".deps/llist.Tpo" -c llist.c -DDLL_EXPORT -DPIC -o llist.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT hash.lo -MD -MP -MF ".deps/hash.Tpo" -c hash.c -DDLL_EXPORT -DPIC -o hash.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT multi.lo -MD -MP -MF ".deps/multi.Tpo" -c multi.c -DDLL_EXPORT -DPIC -o multi.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT content_encoding.lo -MD -MP -MF ".deps/content_encoding.Tpo" -c content_encoding.c -DDLL_EXPORT -DPIC -o content_encoding.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT share.lo -MD -MP -MF ".deps/share.Tpo" -c share.c -DDLL_EXPORT -DPIC -o share.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT http_digest.lo -MD -MP -MF ".deps/http_digest.Tpo" -c http_digest.c -DDLL_EXPORT -DPIC -o http_digest.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT md5.lo -MD -MP -MF ".deps/md5.Tpo" -c md5.c -DDLL_EXPORT -DPIC -o md5.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT curl_rand.lo -MD -MP -MF ".deps/curl_rand.Tpo" -c curl_rand.c -DDLL_EXPORT -DPIC -o curl_rand.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT http_negotiate.lo -MD -MP -MF ".deps/http_negotiate.Tpo" -c http_negotiate.c -DDLL_EXPORT -DPIC -o http_negotiate.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT http_ntlm.lo -MD -MP -MF ".deps/http_ntlm.Tpo" -c http_ntlm.c -DDLL_EXPORT -DPIC -o http_ntlm.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT inet_pton.lo -MD -MP -MF ".deps/inet_pton.Tpo" -c inet_pton.c -DDLL_EXPORT -DPIC -o inet_pton.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT strtoofft.lo -MD -MP -MF ".deps/strtoofft.Tpo" -c strtoofft.c -DDLL_EXPORT -DPIC -o strtoofft.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT strerror.lo -MD -MP -MF ".deps/strerror.Tpo" -c strerror.c -DDLL_EXPORT -DPIC -o strerror.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT hostares.lo -MD -MP -MF ".deps/hostares.Tpo" -c hostares.c -DDLL_EXPORT -DPIC -o hostares.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT hostasyn.lo -MD -MP -MF ".deps/hostasyn.Tpo" -c hostasyn.c -DDLL_EXPORT -DPIC -o hostasyn.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT hostip4.lo -MD -MP -MF ".deps/hostip4.Tpo" -c hostip4.c -DDLL_EXPORT -DPIC -o hostip4.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT hostip6.lo -MD -MP -MF ".deps/hostip6.Tpo" -c hostip6.c -DDLL_EXPORT -DPIC -o hostip6.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT hostsyn.lo -MD -MP -MF ".deps/hostsyn.Tpo" -c hostsyn.c -DDLL_EXPORT -DPIC -o hostsyn.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT hostthre.lo -MD -MP -MF ".deps/hostthre.Tpo" -c hostthre.c -DDLL_EXPORT -DPIC -o hostthre.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT inet_ntop.lo -MD -MP -MF ".deps/inet_ntop.Tpo" -c inet_ntop.c -DDLL_EXPORT -DPIC -o inet_ntop.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT parsedate.lo -MD -MP -MF ".deps/parsedate.Tpo" -c parsedate.c -DDLL_EXPORT -DPIC -o parsedate.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT select.lo -MD -MP -MF ".deps/select.Tpo" -c select.c -DDLL_EXPORT -DPIC -o select.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT gtls.lo -MD -MP -MF ".deps/gtls.Tpo" -c gtls.c -DDLL_EXPORT -DPIC -o gtls.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT sslgen.lo -MD -MP -MF ".deps/sslgen.Tpo" -c sslgen.c -DDLL_EXPORT -DPIC -o sslgen.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT tftp.lo -MD -MP -MF ".deps/tftp.Tpo" -c tftp.c -DDLL_EXPORT -DPIC -o tftp.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT splay.lo -MD -MP -MF ".deps/splay.Tpo" -c splay.c -DDLL_EXPORT -DPIC -o splay.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT strdup.lo -MD -MP -MF ".deps/strdup.Tpo" -c strdup.c -DDLL_EXPORT -DPIC -o strdup.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT socks.lo -MD -MP -MF ".deps/socks.Tpo" -c socks.c -DDLL_EXPORT -DPIC -o socks.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT ssh.lo -MD -MP -MF ".deps/ssh.Tpo" -c ssh.c -DDLL_EXPORT -DPIC -o ssh.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT nss.lo -MD -MP -MF ".deps/nss.Tpo" -c nss.c -DDLL_EXPORT -DPIC -o nss.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT qssl.lo -MD -MP -MF ".deps/qssl.Tpo" -c qssl.c -DDLL_EXPORT -DPIC -o qssl.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT rawstr.lo -MD -MP -MF ".deps/rawstr.Tpo" -c rawstr.c -DDLL_EXPORT -DPIC -o rawstr.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT curl_addrinfo.lo -MD -MP -MF ".deps/curl_addrinfo.Tpo" -c curl_addrinfo.c -DDLL_EXPORT -DPIC -o curl_addrinfo.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT socks_gssapi.lo -MD -MP -MF ".deps/socks_gssapi.Tpo" -c socks_gssapi.c -DDLL_EXPORT -DPIC -o socks_gssapi.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT socks_sspi.lo -MD -MP -MF ".deps/socks_sspi.Tpo" -c socks_sspi.c -DDLL_EXPORT -DPIC -o socks_sspi.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT curl_sspi.lo -MD -MP -MF ".deps/curl_sspi.Tpo" -c curl_sspi.c -DDLL_EXPORT -DPIC -o curl_sspi.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT slist.lo -MD -MP -MF ".deps/slist.Tpo" -c slist.c -DDLL_EXPORT -DPIC -o slist.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT nonblock.lo -MD -MP -MF ".deps/nonblock.Tpo" -c nonblock.c -DDLL_EXPORT -DPIC -o nonblock.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT curl_memrchr.lo -MD -MP -MF ".deps/curl_memrchr.Tpo" -c curl_memrchr.c -DDLL_EXPORT -DPIC -o curl_memrchr.lo
+gcc -DHAVE_CONFIG_H -I../include -I../include -I../lib -I../lib -g0 -O2 -Wno-system-headers -MT ssluse.lo -MD -MP -MF ".deps/ssluse.Tpo" -c ssluse.c -DDLL_EXPORT -DPIC -o ssluse.lo
+
+ar rf libcurl.la file.lo timeval.lo base64.lo hostip.lo progress.lo formdata.lo cookie.lo http.lo sendf.lo ftp.lo url.lo dict.lo if2ip.lo speedcheck.lo ldap.lo ssluse.lo version.lo getenv.lo escape.lo mprintf.lo telnet.lo netrc.lo getinfo.lo transfer.lo strequal.lo easy.lo security.lo krb4.lo krb5.lo memdebug.lo http_chunks.lo strtok.lo connect.lo llist.lo hash.lo multi.lo content_encoding.lo share.lo http_digest.lo md5.lo curl_rand.lo http_negotiate.lo http_ntlm.lo inet_pton.lo strtoofft.lo strerror.lo hostares.lo hostasyn.lo hostip4.lo hostip6.lo hostsyn.lo hostthre.lo inet_ntop.lo parsedate.lo select.lo gtls.lo sslgen.lo tftp.lo splay.lo strdup.lo socks.lo ssh.lo nss.lo qssl.lo rawstr.lo curl_addrinfo.lo socks_gssapi.lo socks_sspi.lo curl_sspi.lo slist.lo nonblock.lo curl_memrchr.lo
+
+
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT main.o -MD -MP -MF ".deps/main.Tpo" -c -o main.o main.c
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT hugehelp.o -MD -MP -MF ".deps/hugehelp.Tpo" -c -o hugehelp.o hugehelp.c
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT urlglob.o -MD -MP -MF ".deps/urlglob.Tpo" -c -o urlglob.o urlglob.c
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT writeout.o -MD -MP -MF ".deps/writeout.Tpo" -c -o writeout.o writeout.c
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT writeenv.o -MD -MP -MF ".deps/writeenv.Tpo" -c -o writeenv.o writeenv.c
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT getpass.o -MD -MP -MF ".deps/getpass.Tpo" -c -o getpass.o getpass.c
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT homedir.o -MD -MP -MF ".deps/homedir.Tpo" -c -o homedir.o homedir.c
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT curlutil.o -MD -MP -MF ".deps/curlutil.Tpo" -c -o curlutil.o curlutil.c
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT os-specific.o -MD -MP -MF ".deps/os-specific.Tpo" -c -o os-specific.o os-specific.c
+
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT strtoofft.o -MD -MP -MF ".deps/strtoofft.Tpo" -c -o strtoofft.o ../lib/strtoofft.c
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT strdup.o -MD -MP -MF ".deps/strdup.Tpo" -c -o strdup.o ../lib/strdup.c
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT rawstr.o -MD -MP -MF ".deps/rawstr.Tpo" -c -o rawstr.o ../lib/rawstr.c
+gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT nonblock.o -MD -MP -MF ".deps/nonblock.Tpo" -c -o nonblock.o ../lib/nonblock.c
+
+gcc -g0 -O2 -Wno-system-headers -o curl.exe main.o hugehelp.o urlglob.o writeout.o writeenv.o getpass.o homedir.o curlutil.o os-specific.o strtoofft.o strdup.o rawstr.o nonblock.o ../lib/libcurl.la -lssl -lcrypto -lcrypt32 -lgdi32 -lws2_32 -lwldap32
+

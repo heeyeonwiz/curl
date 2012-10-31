@@ -1,0 +1,11 @@
+make  all-am
+make[1]: Entering directory `E:/curl-7.19.7/src'
+if gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT strtoofft.o -MD -MP -MF ".deps/strtoofft.Tpo" -c -o strtoofft.o `test -f '../lib/strtoofft.c' || echo './'`../lib/strtoofft.c; \
+	then mv -f ".deps/strtoofft.Tpo" ".deps/strtoofft.Po"; else rm -f ".deps/strtoofft.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT strdup.o -MD -MP -MF ".deps/strdup.Tpo" -c -o strdup.o `test -f '../lib/strdup.c' || echo './'`../lib/strdup.c; \
+	then mv -f ".deps/strdup.Tpo" ".deps/strdup.Po"; else rm -f ".deps/strdup.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT rawstr.o -MD -MP -MF ".deps/rawstr.Tpo" -c -o rawstr.o `test -f '../lib/rawstr.c' || echo './'`../lib/rawstr.c; \
+	then mv -f ".deps/rawstr.Tpo" ".deps/rawstr.Po"; else rm -f ".deps/rawstr.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H  -I../include -I../include -I../lib -I../src -I../lib -I../src    -g0 -O2 -Wno-system-headers -MT nonblock.o -MD -MP -MF ".deps/nonblock.Tpo" -c -o nonblock.o `test -f '../lib/nonblock.c' || echo './'`../lib/nonblock.c; \
+	then mv -f ".deps/nonblock.Tpo" ".deps/nonblock.Po"; else rm -f ".deps/nonblock.Tpo"; exit 1; fi
+make[1]: Leaving directory `E:/curl-7.19.7/src'

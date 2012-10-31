@@ -1,0 +1,141 @@
+writeout.o: writeout.c setup.h curl_config.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/windows.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stdarg.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/windef.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnt.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winerror.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/string.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/basetsd.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/pshpack4.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/poppack.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/wincon.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winbase.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/wingdi.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winuser.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnls.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winver.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnetwk.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winreg.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winsvc.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winsock2.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/ws2tcpip.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdio.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/types.h \
+ ../lib/setup_once.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/ctype.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/errno.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/stat.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/time.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/time.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/io.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/fcntl.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stdbool.h \
+ ../include/curl/curl.h ../include/curl/curlver.h \
+ ../include/curl/curlbuild.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdint.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/inttypes.h \
+ ../include/curl/curlrules.h \
+ c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/limits.h \
+ ../include/curl/easy.h ../include/curl/multi.h ../include/curl/curl.h \
+ ../include/curl/typecheck-gcc.h ../include/curl/mprintf.h writeout.h
+
+setup.h:
+
+curl_config.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/windows.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stdarg.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/windef.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnt.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winerror.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/string.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/_mingw.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stddef.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/basetsd.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/pshpack4.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/poppack.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/wincon.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winbase.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/wingdi.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winuser.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnls.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winver.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winnetwk.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winreg.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winsvc.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/winsock2.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/ws2tcpip.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdio.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/types.h:
+
+../lib/setup_once.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdlib.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/ctype.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/errno.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/stat.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/sys/time.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/time.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/io.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/fcntl.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/include/stdbool.h:
+
+../include/curl/curl.h:
+
+../include/curl/curlver.h:
+
+../include/curl/curlbuild.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/stdint.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/inttypes.h:
+
+../include/curl/curlrules.h:
+
+c:\mingw\bin\../lib/gcc/mingw32/4.4.0/../../../../include/limits.h:
+
+../include/curl/easy.h:
+
+../include/curl/multi.h:
+
+../include/curl/curl.h:
+
+../include/curl/typecheck-gcc.h:
+
+../include/curl/mprintf.h:
+
+writeout.h:

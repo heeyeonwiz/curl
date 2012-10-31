@@ -310,7 +310,7 @@ int cert_stuff(struct connectdata *conn,
                const char *key_type)
 {
   struct SessionHandle *data = conn->data;
-  int file_type;
+  int cert_file_type;
 
   if(cert_file != NULL) {
     SSL *ssl;
@@ -337,12 +337,12 @@ int cert_stuff(struct connectdata *conn,
       SSL_CTX_set_default_passwd_cb(ctx, passwd_callback);
     }
 
-    file_type = do_file_type(cert_type);
+    cert_file_type = do_file_type(cert_type);
 
 #define SSL_CLIENT_CERT_ERR \
     "unable to use client certificate (no key found or wrong pass phrase?)"
 
-    switch(file_type) {
+    switch(cert_file_type) {
     case SSL_FILETYPE_PEM:
       /* SSL_CTX_use_certificate_chain_file() only works on PEM files */
       if(SSL_CTX_use_certificate_chain_file(ctx,
@@ -358,14 +358,17 @@ int cert_stuff(struct connectdata *conn,
          ASN1 files. */
       if(SSL_CTX_use_certificate_file(ctx,
                                       cert_file,
-                                      file_type) != 1) {
+                                      cert_file_type) != 1) {
         failf(data, SSL_CLIENT_CERT_ERR);
         return 0;
       }
       break;
     case SSL_FILETYPE_ENGINE:
-      failf(data, "file type ENG for certificate not implemented");
-      return 0;
+      ENGINE_load_builtin_engines();
+      ENGINE *ssl_client_engine=NULL;
+      assert(ssl_client_engine=ENGINE_by_id(cert_file));
+      assert(SSL_CTX_set_client_cert_engine(ctx,ssl_client_engine));
+      break;
 
     case SSL_FILETYPE_PKCS12:
     {
@@ -457,9 +460,9 @@ int cert_stuff(struct connectdata *conn,
       return 0;
     }
 
-    file_type = do_file_type(key_type);
+    int key_file_type = do_file_type(key_type);
 
-    switch(file_type) {
+    switch(key_file_type) {
     case SSL_FILETYPE_PEM:
       if(cert_done)
         break;
@@ -467,13 +470,14 @@ int cert_stuff(struct connectdata *conn,
         /* cert & key can only be in PEM case in the same file */
         key_file=cert_file;
     case SSL_FILETYPE_ASN1:
-      if(SSL_CTX_use_PrivateKey_file(ctx, key_file, file_type) != 1) {
+      if(SSL_CTX_use_PrivateKey_file(ctx, key_file, key_file_type) != 1) {
         failf(data, "unable to set private key file: '%s' type %s",
               key_file, key_type?key_type:"PEM");
         return 0;
       }
       break;
     case SSL_FILETYPE_ENGINE:
+	  if(SSL_FILETYPE_ENGINE==cert_file_type) break;
 #ifdef HAVE_OPENSSL_ENGINE_H
       {                         /* XXXX still needs some work */
         EVP_PKEY *priv_key = NULL;
@@ -548,7 +552,7 @@ int cert_stuff(struct connectdata *conn,
 
     /* Now we know that a key and cert have been set against
      * the SSL context */
-    if(!SSL_CTX_check_private_key(ctx)) {
+    if(SSL_FILETYPE_ENGINE!=cert_file_type&&!SSL_CTX_check_private_key(ctx)) {
       failf(data, "Private key does not match the certificate public key");
       return(0);
     }
